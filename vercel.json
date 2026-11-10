@@ -1,0 +1,13 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/project",
+      "destination": "https://pdf-summerizer-yae8.onrender.com/project"
+    },
+    {
+      "source": "/project/:path*",
+      "destination": "https://pdf-summerizer-yae8.onrender.com/project/:path*"
+    }
+  ]
+}
